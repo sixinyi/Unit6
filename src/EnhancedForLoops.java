@@ -53,34 +53,34 @@ public class EnhancedForLoops {
     }
     public static String printStandardWhile(String[] arr){
 
-        int count = 0;
+        int n = 0;
         String RS = "";
 
-        while(count < arr.length) {
-            RS += arr[count] + " ";
-            count++;
+        while(n < arr.length) {
+            RS += arr[n] + " ";
+            n++;
         }
         return RS;
     }
     public static String printStandardWhile(int[] arr){
 
-        int count = 0;
+        int n = 0;
         String RS = "";
 
-        while(count < arr.length) {
-            RS += arr[count] + " ";
-            count++;
+        while(n < arr.length) {
+            RS += arr[n] + " ";
+            n++;
         }
         return RS;
     }
     public static String printStandardWhile(double[] arr){
 
-        int count = 0;
+        int n = 0;
         String RS = "";
 
-        while(count < arr.length) {
-            RS += arr[count] + " ";
-            count++;
+        while(n < arr.length) {
+            RS += arr[n] + " ";
+            n++;
         }
         return RS;
     }
